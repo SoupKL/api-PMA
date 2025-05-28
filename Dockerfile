@@ -1,0 +1,5 @@
+FROM phpmyadmin/phpmyadmin:latest
+ENV PMA_HOST=dpg-d0qpv2buibrs73er4ss0-a
+ENV PMA_PORT=5432
+ENV PMA_USER=ee_bd_user
+ENV PMA_PASSWORD=C0nxWR4dlUL1CXzwO6HPOTnWO3TVLDVk

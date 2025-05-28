@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: pgadmin
+    env: docker
+    plan: free
+    envVars:
+      - key: PGADMIN_DEFAULT_EMAIL
+        value: valia0119@mail.ru
+      - key: PGADMIN_DEFAULT_PASSWORD
+        value: qweasdzxc122
